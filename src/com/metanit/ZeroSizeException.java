@@ -9,5 +9,6 @@ public class ZeroSizeException extends RuntimeException {
 
     ZeroSizeException(String message, int num) {
         System.out.println(message);
+        this.num = num;
     }
 }
